@@ -76,7 +76,7 @@ Pré-requisitos
 npm ou yarn
 
 Instalação
-git clone https://github.com/seu-usuario/loja-react.git
+git clone https://github.com/GustavoCaramelo/Loja-E-Commerce
 cd loja-react
 npm install
 
