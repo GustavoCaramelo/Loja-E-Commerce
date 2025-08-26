@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
-    "target": "ES2022",
+    "target": "ES2015",
     "useDefineForClassFields": true,
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "module": "ESNext",
@@ -15,7 +15,11 @@
     "noEmit": false,
     "jsx": "react-jsx",
 
-    /* Linting */
+    /* Interop com módulos */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* Linting e segurança */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -23,5 +27,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-    "include": ["src", "global.d.ts"]
+  "include": ["src", "global.d.ts"]
 }
