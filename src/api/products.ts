@@ -1,0 +1,200 @@
+import type { Product } from '../types/product'
+
+export const mockProducts: Product[] = [
+  {
+    id: 1,
+    title: 'Smartphone Galaxy S22',
+    price: 3999.9,
+    category: 'Eletrônicos',
+    description: 'Smartphone topo de linha com câmera tripla e tela AMOLED.',
+    image: 'https://images.samsung.com/is/image/samsung/p6pim/br/2202/gallery/br-galaxy-s22-s901-sm-s901eidkzto-530801695?$720_576_JPG$',
+    rating: { rate: 4.7, count: 112 },
+  },
+  {
+    id: 2,
+    title: 'Notebook Dell Inspiron',
+    price: 5499.0,
+    category: 'Eletrônicos',
+    description: 'Notebook com Intel i7, 16GB RAM, SSD 512GB.',
+    image: 'https://a-static.mlcdn.com.br/800x560/notebook-dell-inspiron-15-intel-core-i3-8gb-ram-ssd-256gb-windows-11-156-i15-i120k-a10p/magazineluiza/238005900/9b93a3a974d4b4786e4f628974c6050e.jpg',
+    rating: { rate: 4.5, count: 87 },
+  },
+  {
+    id: 3,
+    title: 'Camisa Polo Azul',
+    price: 89.9,
+    category: 'Roupas',
+    description: 'Camisa polo confortável, 100% algodão.',
+    image: 'https://images.tcdn.com.br/img/img_prod/809258/camisa_polo_masculina_piquet_manga_curta_azul_royal_409_1_62c15740b4b6cc04dbfd8e56a62c10fc.jpg',
+    rating: { rate: 4.2, count: 45 },
+  },
+  {
+    id: 4,
+    title: 'Calça Jeans Masculina',
+    price: 149.9,
+    category: 'Roupas',
+    description: 'Jeans slim fit resistente e confortável.',
+    image: 'https://cdn.awsli.com.br/600x1000/2707/2707919/produto/315647998/141-09kmqnmmuz.png',
+    rating: { rate: 4.4, count: 61 },
+  },
+  {
+    id: 5,
+    title: 'Livro Clean Code',
+    price: 129.9,
+    category: 'Livros',
+    description: 'Livro essencial para desenvolvedores sobre boas práticas.',
+    image: 'https://www.oreilly.com/library/cover/9780136083238/1200w630h/',
+    rating: { rate: 4.9, count: 250 },
+  },
+  {
+    id: 6,
+    title: 'Livro Domain-Driven Design',
+    price: 159.9,
+    category: 'Livros',
+    description: 'Abordagem estratégica e tática para projetos complexos.',
+    image: 'https://s3.amazonaws.com/tiny-anexos-us/erp/NjQzMzAzNjA1/454b3ba19b7f09126227a82f758aee6a.png',
+    rating: { rate: 4.6, count: 134 },
+  },
+  {
+    id: 7,
+    title: 'Brinquedo Lego City',
+    price: 299.9,
+    category: 'Brinquedos',
+    description: 'Kit Lego para montar uma cidade divertida.',
+    image: 'https://a-static.mlcdn.com.br/800x560/lego-city-centro-da-cidade-60292/techbricks/656938857/abf41cb0c002ec62d6201fdd197bb196.jpg',
+    rating: { rate: 4.8, count: 78 },
+  },
+  {
+    id: 8,
+    title: 'Boneca Barbie Fashionista',
+    price: 119.9,
+    category: 'Brinquedos',
+    description: 'Boneca com roupas e acessórios variados.',
+    image: 'https://formosa.vtexassets.com/arquivos/ids/163324/Boneca-Barbie-Fashionistas-140---Mattel-887961377019.jpg?v=638392476761100000',
+    rating: { rate: 4.3, count: 55 },
+  },
+  {
+    id: 9,
+    title: 'Fone de Ouvido Bluetooth',
+    price: 249.9,
+    category: 'Eletrônicos',
+    description: 'Fone sem fio com cancelamento de ruído.',
+    image: 'https://images.tcdn.com.br/img/img_prod/1146605/fone_de_ouvido_bluetooth_5_1v_ep_tws_21bk_tws_preto_c3tech_2635_1_f9810ff09aeaff06a22f35378042bceb.jpg',
+    rating: { rate: 4.1, count: 92 },
+  },
+  {
+    id: 10,
+    title: "Monitor Gamer 27''",
+    price: 1899.0,
+    category: 'Eletrônicos',
+    description: 'Monitor com 165Hz e 1ms de resposta para jogos.',
+    image: 'https://lojaibyte.vteximg.com.br/arquivos/ids/366978-1200-1200/monitor-gamer-samsung-27-fhd-75hz-hdmi-vga-freesync-preto-serie-t350-01-min-min.jpg?v=637717201533970000',
+    rating: { rate: 4.7, count: 64 },
+  },
+  {
+    id: 11,
+    title: 'Tênis Esportivo Nike',
+    price: 399.9,
+    category: 'Roupas',
+    description: 'Tênis leve e confortável para corrida e treino.',
+    image: 'https://tfdfjz.vteximg.com.br/arquivos/ids/236509/tenis-esportivo-nike-masculino-revolution-6--dc8992-003-preto-dc8992-003-1-.jpg?v=638272076895400000',
+    rating: { rate: 4.6, count: 102 },
+  },
+  {
+    id: 12,
+    title: 'Jaqueta de Couro',
+    price: 699.9,
+    category: 'Roupas',
+    description: 'Jaqueta estilosa e resistente para o inverno.',
+    image: 'https://couropremium.com/cdn/shop/files/preto_f28c403d-8fa6-4ccd-96ad-a0e0c51753c6.png?v=1712082501',
+    rating: { rate: 4.5, count: 80 },
+  },
+  {
+    id: 13,
+    title: 'Kindle Paperwhite',
+    price: 699.0,
+    category: 'Eletrônicos',
+    description: 'Leitor digital com luz ajustável e tela antirreflexo.',
+    image: 'https://images.kabum.com.br/produtos/fotos/388922/kindle-paperwhite-11-geracao-amazon-16-gb-preto-luz-integrada-a-prova-d-agua-wifi-b09tmk7qfx_1665058657_gg.jpg',
+    rating: { rate: 4.9, count: 210 },
+  },
+  {
+    id: 14,
+    title: 'Cafeteira Expresso',
+    price: 349.9,
+    category: 'Eletrônicos',
+    description: 'Cafeteira para café expresso e cappuccino.',
+    image: 'https://gazin-images.gazin.com.br/FUU1wf2Kv1ySZuqSbJCyefvHKe4=/1920x/filters:format(webp):quality(75)/https://gazin-marketplace.s3.amazonaws.com/midias/imagens/2023/05/cafeteira-espresso-arno-dolce-gusto-genio-s-basic-multibebidas-digital-dgs5-152305461923.jpg',
+    rating: { rate: 4.4, count: 70 },
+  },
+  {
+    id: 15,
+    title: 'Livro JavaScript: The Good Parts',
+    price: 99.9,
+    category: 'Livros',
+    description: 'Referência para desenvolvedores JavaScript.',
+    image: 'https://i.zst.com.br/thumbs/12/1f/35/1458500470.jpg',
+    rating: { rate: 4.3, count: 140 },
+  },
+  {
+    id: 16,
+    title: 'Tablet Samsung Galaxy Tab',
+    price: 1999.0,
+    category: 'Eletrônicos',
+    description: 'Tablet com tela grande e ótimo desempenho.',
+    image: 'https://m.media-amazon.com/images/I/51bia84JhhL._UF894,1000_QL80_.jpg',
+    rating: { rate: 4.5, count: 95 },
+  },
+  {
+    id: 17,
+    title: 'Boneco Action Figure',
+    price: 159.9,
+    category: 'Brinquedos',
+    description: 'Boneco colecionável articulado para fãs.',
+    image: 'https://storage.geralgeek.com.br/images/venda/Action-Figure-Deadpool-Articulado-Boneco-Com-Acessorios-15-Cm-Colecionavel-Marvel-678f8dc928d17.jpeg',
+    rating: { rate: 4.7, count: 68 },
+  },
+  {
+    id: 18,
+    title: 'Vestido Floral',
+    price: 189.9,
+    category: 'Roupas',
+    description: 'Vestido leve e confortável para o verão.',
+    image: 'https://www.moncalieri.com.br/cdn/shop/products/Sada6bc587d60459c8937a42e41920edcw_1500x.jpg?v=1680975651',
+    rating: { rate: 4.4, count: 54 },
+  },
+  {
+    id: 19,
+    title: 'Livro React Avançado',
+    price: 189.9,
+    category: 'Livros',
+    description: 'Livro completo sobre React, hooks e boas práticas.',
+    image: 'https://www.advanced-react.com/cover.png',
+    rating: { rate: 4.8, count: 170 },
+  },
+  {
+    id: 20,
+    title: 'Bicicleta Aro 29',
+    price: 2299.0,
+    category: 'Brinquedos',
+    description: 'Bicicleta para trilhas e lazer, quadro leve.',
+    image: 'https://gazin-images.gazin.com.br/7SlvCt_augV8PGST1VlmSz6NNrc=/1920x/filters:format(webp):quality(75)/https://gazin-marketplace.s3.amazonaws.com/midias/imagens/2023/08/bicicleta-aro-29-colli-atalanta-21-marchas-freio-a-disco-em-aluminio-quadro-17-112308490107.jpg',
+    rating: { rate: 4.6, count: 84 },
+  },
+]
+
+export async function fetchAllProducts(): Promise<Product[]> {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(mockProducts), 300) // Simula delay
+  })
+}
+
+export async function fetchProductById(
+  id: number,
+): Promise<Product | undefined> {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(mockProducts.find((p) => p.id === id))
+    }, 300)
+  })
+}
