@@ -77,11 +77,12 @@ npm ou yarn
 
 Instalação
 git clone https://github.com/GustavoCaramelo/Loja-E-Commerce
-cd loja-react
+
 npm install
 
 Ambiente de desenvolvimento
 npm run dev
+
 Acesse: http://localhost:5173
 
 Testes
